@@ -1,0 +1,2 @@
+execute as @e[tag=crafter] at @s run function robo_17:fr/crafter
+execute as @a at @s if block ~ ~-1 ~ minecraft:crafting_table if predicate robo_17:isneaking positioned ~ ~-1 ~ run function robo_17:fr/summon
